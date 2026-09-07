@@ -1,16 +1,16 @@
 class Animal:
-    def move(self):
-        return "Moving forward..."
+def move(self):
+return "Moving forward..."
 
-    def speak(self):
-        return "Generic animal sound"
+def speak(self):
+return "Generic animal sound"
 
 class Dog(Animal):
-    def speak(self):
-        return "Bark!"
+def speak(self):
+return "Bark!"
 
-    def fetch(self):
-        return "Fetching the ball"
+def fetch(self):
+return "Fetching the ball"
 
 my_dog = Dog()
 
