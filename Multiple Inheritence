@@ -1,0 +1,17 @@
+class Flyer:
+def fly(self):
+return "Flying in the sky"
+
+class Swimmer:
+def swim(self):
+return "Swimming in the water"
+
+class Duck(Flyer, Swimmer):
+def quack(self):
+return "Quack!"
+
+donald = Duck()
+
+print(donald.fly())
+print(donald.swim())
+print(donald.quack())
