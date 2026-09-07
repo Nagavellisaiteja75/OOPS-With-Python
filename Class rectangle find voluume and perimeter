@@ -1,0 +1,9 @@
+class rectangle:
+def area(self,l,b):
+print(l*b)
+def perimeter(self,l,b)
+l=int(input("Enter L="))
+B=int(input("Enter B="))
+rec=rectangle()
+rec=area(l,b)
+rec.perimeter
