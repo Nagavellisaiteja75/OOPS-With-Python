@@ -1,17 +1,14 @@
-class Flyer:
-def fly(self):
-return "Flying in the sky"
-
-class Swimmer:
-def swim(self):
-return "Swimming in the water"
-
-class Duck(Flyer, Swimmer):
-def quack(self):
-return "Quack!"
-
-donald = Duck()
-
-print(donald.fly())
-print(donald.swim())
-print(donald.quack())
+class vehicle:
+def start(sef):
+print("vehicle started")
+class car(vehicle):
+defdrive (self):
+print ("car is driving")
+class Electric car(car):
+def charge(car):
+def Charge(self):
+print("Electric Car is chsarging")
+my_car=Electric car()
+my_car.start()
+my_car.drive ()
+my_car.charge()
