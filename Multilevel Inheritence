@@ -1,19 +1,15 @@
 class Person:
 def __init__(self, name):
 self.name = name
-
 class Employee(Person):
 def __init__(self, name, salary):
 super().__init__(name)
 self.salary = salary
-
 class Manager(Employee):
 def __init__(self, name, salary, team_size):
 super().__init__(name, salary)
 self.team_size = team_size
-
-leader = Manager("Sarah", 120000, 5)
-
+leader = Manager("Sai", 120000, 5)
 print(leader.name)
 print(leader.salary)
 print(leader.team_size)
