@@ -1,15 +1,9 @@
-class Employee:
-def __init__(self, name, salary):
-self.name = name
-self.salary = salary
-
-class Manager(Employee):
-def __init__(self, name, salary, department):
-super().__init__(name, salary)
-self.department = department
-
-boss = Manager("Alice", 90000, "Sales")
-
-print(boss.name)
-print(boss.salary)
-print(boss.department)
+class School:
+def room(self)
+print("school Contains rooms")
+class srichaitanya(school):
+def timetable(self):
+print("srichaitanya has basic time table")
+s1=Srichaitanya
+s1.room
+s1.timetable()
