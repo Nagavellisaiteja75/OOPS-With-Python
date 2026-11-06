@@ -1,0 +1,9 @@
+class student:
+    name="srihari"
+    age=24
+class Demo(student):
+    branch="CSE"
+d1=Demo()
+print(d1.name)
+print(d1.age)
+print(d1.branch)

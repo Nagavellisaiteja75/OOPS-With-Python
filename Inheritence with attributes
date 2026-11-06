@@ -1,9 +1,0 @@
-class School:
-def room(self)
-print("school Contains rooms")
-class srichaitanya(school):
-def timetable(self):
-print("srichaitanya has basic time table")
-s1=Srichaitanya
-s1.room
-s1.timetable()
