@@ -1,18 +1,11 @@
-class account:
-    holdername="Saiteja"
-    accnumber="2334"
-    balance=500
-
-    def deposit(self,money):
-     print(money)
-     
-    def withdrawl(self,cash):
-     print(cash)
-     
-    def display(self,balance):
-     print(self.balance)
-     
-s=account()
-s.deposit(600)
-s.withdrawl(100)
-s.display(500)
+class Demo():
+    def addition(self,a,b):
+        print(a+b)
+    def subtraction(self,a,b):
+        print(a-b)
+    def multiplication(self,a,b):
+        print(a*b)
+d1=Demo()
+d1.addition(10,20)
+d1.subtraction(40,10)
+d1.multiplication(3,10)
