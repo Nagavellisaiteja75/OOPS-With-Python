@@ -1,0 +1,34 @@
+class Result:
+    def __init__(self,name,rollno,sub1,sub2,sub3):
+        self.name=name
+        self.rollno=rollno
+        self.sub1=sub1
+        self.sub2=sub2
+        self.sub3=sub3
+    def Totalmarks(self):
+        totalmarks=self.sub1+self.sub2+self.sub3
+        print("Total marks:",totalmarks)
+    def Average(self):
+        avg=(self.sub1+self.sub2+self.sub3)/3
+        print("Average:",avg)
+    def grade(self):
+        if avg<=100 and avg>=92:
+           print("Grade A")
+        elif avg<=89 and avg>=75:
+           print("Grade B")
+        elif avg<=74 and avg>=60:
+            print("Grade C")
+        elif avg<=59 and avg>=40:
+            print("Grade D")
+        else:
+            print("false")
+    def display(self):
+        print("Name: ",self.name)
+        print("Roll no: ",self.rollno)
+r=Result("GOKU",29,100,96,98)
+r.display()
+r.Totalmarks()
+r.Average()
+
+
+        
